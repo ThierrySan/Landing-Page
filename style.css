@@ -1,5 +1,57 @@
 @charset "UTF-8";
 
+:root{
+    --f1: 'Open Sans';
+    --f2: 'Poppins';
+    --f3: 'Poppins', 'Open Sans';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
-    background-color: red;
+    font-family: var(--f3);
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('assets/images/bg-desktop.svg');
+    color: white;
+}
+
+header{
+    margin: 20px 0px 0px 40px;
+}
+
+main{
+    display: flex;
+    max-height: 478px;
+}
+
+h1{
+    font-weight: 800;
+}
+
+p{
+    font-weight: 400;
+}
+
+main > div.img{
+    margin: 0px 45px 0px 40px;
+}
+
+main > div.cont{
+    max-width: 500px;
+}
+
+footer{
+    text-align: end;
+    padding-right: 60px;
+}
+
+footer > img{
+    position: relative;
+}
+
+#insta{
+    top: 7px;
 }
