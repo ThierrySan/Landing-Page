@@ -29,29 +29,47 @@ main{
 
 h1{
     font-weight: 800;
+    padding-top: 50px;
 }
 
 p{
     font-weight: 400;
+    text-align: justify;
+    padding-top: 40px;
 }
 
-main > div.img{
+#butao{
+    background-color: white;
+    width: 102px;
+    text-align: left;
+    margin-top: 30px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#butao:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+}
+
+div.img{
     margin: 0px 45px 0px 40px;
 }
 
-main > div.cont{
+div.cont{
     max-width: 500px;
 }
 
 footer{
     text-align: end;
-    padding-right: 60px;
+    padding-right: 70px;
 }
 
-footer > img{
-    position: relative;
-}
-
-#insta{
-    top: 7px;
+footer > a{
+    padding-right: 10px;
 }
